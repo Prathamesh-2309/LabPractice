@@ -15,7 +15,7 @@ app.get('/',(request,response)=>{
     //        response.send(JSON.stringify(result));
     //    }
     // })
-    response.send("BAckend Application");
+    response.send("This is my backend apllication");
 })
 
 app.listen(9009,()=>{
