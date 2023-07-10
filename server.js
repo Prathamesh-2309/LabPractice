@@ -15,9 +15,9 @@ app.get('/',(request,response)=>{
     //        response.send(JSON.stringify(result));
     //    }
     // })
-    response.send("This is my backend apllication now");
+    response.send("Backend application is done now part 2");
 })
 
 app.listen(9009,()=>{
-    console.log("server started!!")
+    console.log("server started @ 9009!!")
 })
